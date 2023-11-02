@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Status | Whatsapp UI</title>
+    <link rel="shortcut icon" href="./img/whatsapp-favicon.png" type="image/x-icon" />
+    <!--TailwindCSS-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-300 ">
+
+    <section class="bg-white max-w-md mx-auto">
+        <!--Top header-->
+        <div class="bg-emerald-800 text-white px-3 py-5 flex items-center justify-between">
+            <h4 class="font-semibold text-xl">WhatsAPP</h4>
+            <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    class="fill-current mr-4 hover:text-emerald-400 cursor-pointer">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0c.41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z" />
+                </svg>
+                <a href="./settings.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        viewBox="0 0 14 14" class="hover:text-emerald-400 cursor-pointer">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="m5.23 2.25l.43-1.11A1 1 0 0 1 6.59.5h.82a1 1 0 0 1 .93.64l.43 1.11l1.46.84l1.18-.18a1 1 0 0 1 1 .49l.4.7a1 1 0 0 1-.08 1.13l-.73.93v1.68l.75.93a1 1 0 0 1 .08 1.13l-.4.7a1 1 0 0 1-1 .49l-1.18-.18l-1.46.84l-.43 1.11a1 1 0 0 1-.93.64h-.84a1 1 0 0 1-.93-.64l-.43-1.11l-1.46-.84l-1.18.18a1 1 0 0 1-1-.49l-.4-.7a1 1 0 0 1 .08-1.13L2 7.84V6.16l-.75-.93a1 1 0 0 1-.08-1.13l.4-.7a1 1 0 0 1 1-.49l1.18.18ZM5 7a2 2 0 1 0 2-2a2 2 0 0 0-2 2Z" />
+                    </svg></a>
+            </div>
+        </div>
+
+        <!--Top next header-->
+        <ul class="bg-emerald-800 text-white px-3 py-2 flex justify-between items-center space-x-4">
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    class="fill-current w-6 hover:text-emerald-400 cursor-pointer">
+                    <path
+                        d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z" />
+                </svg>
+            </li>
+
+            <li class="flex items-center flex-1 justify-between">
+                <div
+                    class="uppercase font-medium text-sm items-center space-x-2 text-gray-300 hover:text-emerald-400 cursor-pointer">
+                    <a href="./index.html" class=""><span>Chats</span> <span
+                            class="bg-gray-300 text-emerald-800 rounded-full px-1.5 py-1 w-6 h-6 text-xs items-center justify-center ml-1 hover:bg-emerald-400">10</span></a>
+
+                </div>
+                <div class="uppercase font-medium text-sm items-center space-x-2 relative">
+                    <span class="mr-6">STATUS</span>
+                    <div class="absolute right-3 w-full top-8 h-1 bg-white"></div>
+                </div>
+                <div class="uppercase font-medium text-sm items-center space-x-2">
+                    <a href="./calls.html"><span class="mr-3 text-gray-300 hover:text-emerald-400">Calls</span></a>
+
+                </div>
+            </li>
+        </ul>
+
+        <!--Status screen-->
+        <div class="bg-white">
+            <div class="px-3 pt-5 pb-6 flex items-center justify-between space-x-4 cursor-pointer hover:bg-gray-100">
+                <img src="https://ui-avatars.com/api/?name=Madhava Raj&background=random&color=fff" alt="Madhava Raj"
+                    class="rounded-full  border-2 border-green-600 p-0.5 w-14 ml-1">
+
+                <div class="flex-1 flex items-center justify-between">
+                    <div>
+                        <h4 class="font-semibold">My status</h4>
+                        <small class="text-gray-500">Today, 12.30 am</small>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current text-emerald-800 ">
+                            <path
+                                d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2Z" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="font-semibold">
+                <h4 class="px-3 py-2 font-medium text-gray-600">Recent Updates</h4>
+
+                <div class="px-3 flex items-center space-x-4 py-5 cursor-pointer hover:bg-gray-100">
+                    <img src="https://ui-avatars.com/api/?name=Raja pandian&background=random&color=fff"
+                        alt="Raja pandian" class="rounded-full border-2 border-green-600 p-0.5 w-14 ml-1">
+                    <div>
+                        <h4 class="">Raja pandian</h4>
+                        <small class="text-gray-500">Today, 2:40 pm</small>
+                    </div>
+                </div>
+
+                <div class="px-3 flex items-center space-x-4 py-5 cursor-pointer hover:bg-gray-100">
+                    <img src="https://ui-avatars.com/api/?name=Ram mohan&background=random&color=fff" alt="Ram mohan"
+                        class="rounded-full border-2 border-green-600 p-0.5 w-14 ml-1">
+                    <div>
+                        <h4 class=" ">Ram mohan</h4>
+                        <small class="text-gray-500">Today, 12:34 pm</small>
+                    </div>
+                </div>
+
+                <div class="px-3 flex items-center space-x-4 py-5 cursor-pointer hover:bg-gray-100">
+                    <img src="https://ui-avatars.com/api/?name=Aadhi kesavan&background=random&color=fff"
+                        alt="Aadhi kesavan" class="rounded-full border-2 border-green-600 p-0.5 w-14 ml-1">
+                    <div>
+                        <h4 class="">Aadhai kesavan</h4>
+                        <small class="text-gray-500">Today, 11:25 am</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <h4 class="px-3 py-2 font-medium text-gray-600">Viewed Updates</h4>
+
+                <div class="px-3 flex items-center space-x-4 py-5 cursor-pointer hover:bg-gray-100">
+                    <img src="https://ui-avatars.com/api/?name=Jeeva&background=random&color=fff" alt="Jeeva"
+                        class="rounded-full border-2 border-gray-400 p-0.5 w-14 ml-1">
+                    <div>
+                        <h4 class="font-semibold">Jeeva</h4>
+                        <small class="text-gray-500">Today, 12:54 pm</small>
+                    </div>
+                </div>
+
+                <div class="px-3 flex items-center space-x-4 py-5 cursor-pointer hover:bg-gray-100">
+                    <img src="https://ui-avatars.com/api/?name=Dhanush&background=random&color=fff" alt="Dhanush"
+                        class="rounded-full border-2 border-gray-400 p-0.5 w-14 ml-1">
+                    <div>
+                        <h4 class="font-semibold">Dhanush</h4>
+                        <small class="text-gray-500">Today, 10:30 am</small>
+                    </div>
+                </div>
+
+                <div class="px-3 flex items-center space-x-4 py-5 cursor-pointer hover:bg-gray-100">
+                    <img src="https://ui-avatars.com/api/?name=Veeramani&background=random&color=fff" alt="Veeramani"
+                        class="rounded-full border-2 border-gray-400 p-0.5 w-14 ml-1">
+                    <div>
+                        <h4 class="font-semibold">Veeramani</h4>
+                        <small class="text-gray-500">Today, 09:27 am</small>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+        </div>
+    </section>
+</body>
+
+</html>

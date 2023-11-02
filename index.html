@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats | Whatsapp UI</title>
+    <link rel="shortcut icon" href="./img/whatsapp-favicon.png" type="image/x-icon">
+    <!--TailwindCSS-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-300 ">
+
+
+    <section class="bg-white max-w-md mx-auto ">
+        <!--Top-header-->
+        <div class="bg-emerald-800 text-white px-3 py-5 flex items-center justify-between">
+            <h4 class="font-semibold text-xl">WhatsAPP</h4>
+            <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    class="fill-current mr-4 cursor-pointer hover:text-emerald-400">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0c.41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z" />
+                </svg>
+                <a href="./settings.html" class="hover:text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="30" height="30" viewBox="0 0 14 14">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="m5.23 2.25l.43-1.11A1 1 0 0 1 6.59.5h.82a1 1 0 0 1 .93.64l.43 1.11l1.46.84l1.18-.18a1 1 0 0 1 1 .49l.4.7a1 1 0 0 1-.08 1.13l-.73.93v1.68l.75.93a1 1 0 0 1 .08 1.13l-.4.7a1 1 0 0 1-1 .49l-1.18-.18l-1.46.84l-.43 1.11a1 1 0 0 1-.93.64h-.84a1 1 0 0 1-.93-.64l-.43-1.11l-1.46-.84l-1.18.18a1 1 0 0 1-1-.49l-.4-.7a1 1 0 0 1 .08-1.13L2 7.84V6.16l-.75-.93a1 1 0 0 1-.08-1.13l.4-.7a1 1 0 0 1 1-.49l1.18.18ZM5 7a2 2 0 1 0 2-2a2 2 0 0 0-2 2Z" />
+                    </svg></a>
+            </div>
+        </div>
+        <!--Top-next-header-->
+        <ul class="bg-emerald-800 text-white px-3 py-2 flex justify-between items-center space-x-4 ">
+            <li> <a href="" class="hover:text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                        height="32" viewBox="0 0 24 24" class="fill-current w-6">
+                        <path
+                            d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z" />
+                    </svg></a></li>
+
+
+            <li class="flex items-center flex-1 justify-between ">
+                <div class="uppercase font-medium text-sm items-center space-x-1  relative">
+                    <span class="">Chats</span>
+                    <span
+                        class="bg-white text-emerald-800 rounded-full px-1.5 py-1  w-6 h-6 text-xs  items-center justify-center">10</span>
+
+                    <div class="absolute  right-0.5 w-full top-8 h-1 bg-white "></div>
+                </div>
+                <div class="uppercase font-medium text-sm items-center space-x-2">
+                    <a href="./status.html" class="text-gray-300 mr-6 hover:text-emerald-400">STATUS</a>
+
+                </div>
+                <div class="uppercase font-medium text-sm items-center space-x-2 ">
+                    <a href="./calls.html"><span class="mr-3 text-gray-300 hover:text-emerald-400">Calls</span></a>
+
+                </div>
+            </li>
+
+
+        </ul>
+
+        <!--Chat screen-->
+        <div class="bg-white relative">
+            <!--chats-->
+            <!--#1-->
+            <div class=" flex items-center px-3 py-5 hover:cursor-pointer hover:bg-gray-100 space-x-4">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Maddy&background=random&color=fff" alt="Maddy"
+                        class="rounded-full w-14 ml-1">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Maddy</h4>
+                    <p class="text-gray-600 text-sm">Hello, how are you?</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <span class="text-green-600 text-sm font-semibold">04:54 PM</span>
+                    <span
+                        class="rounded-full w-6 h-6 p-2 text-sm bg-green-600 text-white flex items-center font-semibold">2</span>
+                </div>
+            </div>
+            <!--#2-->
+            <div class=" flex items-center px-3 py-5 hover:cursor-pointer hover:bg-gray-100 space-x-4">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Kannan moorthi&background=random&color=fff"
+                        alt="Kannan moorthi" class="rounded-full w-14 ml-1">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Kannan moorthi</h4>
+                    <p class="text-gray-600 text-sm">enga iruka..</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <span class="text-green-600 text-sm font-semibold">04:03 PM</span>
+                    <span
+                        class="rounded-full w-6 h-6 p-2 text-sm bg-green-600 text-white flex items-center font-semibold">1</span>
+                </div>
+            </div>
+            <!--#3-->
+            <div class=" flex items-center px-3 py-5 hover:cursor-pointer hover:bg-gray-100 space-x-4">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Raja pandian&background=random&color=fff"
+                        alt="Raja pandian" class="rounded-full w-14 ml-1">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Raja pandian</h4>
+                    <p class="text-gray-600 text-sm">Macha engada iruka?</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <span class="text-green-600 text-sm font-semibold">04:01 PM</span>
+                    <span
+                        class="rounded-full w-6 h-6 p-2 text-sm bg-green-600 text-white flex items-center font-semibold">1</span>
+                </div>
+            </div>
+            <!--#4-->
+            <div class=" flex items-center px-3 py-5 hover:cursor-pointer hover:bg-gray-100 space-x-4">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Manikandan&background=random&color=fff" alt="Manikandan"
+                        class="rounded-full w-14 ml-1">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Manikandan</h4>
+                    <p class="text-gray-600 text-sm">are you okay?</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <span class="text-green-600 text-sm font-semibold">03:34 PM</span>
+                    <span
+                        class="rounded-full w-6 h-6 p-2 text-sm bg-green-600 text-white flex items-center font-semibold">4</span>
+                </div>
+            </div>
+            <!--#5-->
+            <div class=" flex items-center px-3 py-5 hover:cursor-pointer hover:bg-gray-100 space-x-4">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Raja&background=random&color=fff" alt="Raja"
+                        class="rounded-full w-14 ml-1">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Raja</h4>
+                    <p class="text-gray-600 text-sm">Pick me!</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <span class="text-green-600 text-sm font-semibold">02:22 PM</span>
+                    <span
+                        class="rounded-full w-6 h-6 p-2 text-sm bg-green-600 text-white flex items-center font-semibold">2</span>
+                </div>
+            </div>
+            <!--#6-->
+            <div class=" flex items-center px-3 py-5 hover:cursor-pointer hover:bg-gray-100 space-x-4">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Kirubakaran&background=random&color=fff"
+                        alt="Kirubakaran" class="rounded-full w-14 ml-1">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Kirubakaran</h4>
+                    <p class="text-gray-600 text-sm">Am coming buddy.</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <span class=" text-gray-600 text-sm font-semibold">10:12 AM</span>
+
+                </div>
+            </div>
+
+            <!--#7-->
+            <div class=" flex items-center px-3 py-5 hover:cursor-pointer hover:bg-gray-100 space-x-4">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Kanil brother&background=random&color=fff"
+                        alt="Kanil brother" class="rounded-full w-14 ml-1">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Kanil brother</h4>
+                    <p class="text-gray-600 text-sm">ok brother,thanks..</p>
+                </div>
+                <div class="flex flex-col items-center space-y-2">
+                    <span class=" text-gray-600 text-sm font-semibold">11:43 AM</span>
+
+                </div>
+            </div>
+
+            <!--Chat image-->
+          
+                <div
+                    class=" absolute bottom-20 right-5 bg-emerald-800 rounded-full w-12 h-12 flex items-center justify-center hover:bg-emerald-900 cursor-pointer shadow-xl shadow-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="text-white fill-current ">
+                        <path
+                            d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z" />
+                    </svg>
+                </div>
+            
+
+
+        </div>
+
+
+    </section>
+</body>
+
+</html>

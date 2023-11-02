@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calls | Whatsapp UI</title>
+    <link rel="shortcut icon" href="./img/whatsapp-favicon.png" type="image/x-icon">
+    <!--TailwindCSS-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-300 ">
+
+
+    <section class="bg-white max-w-md mx-auto">
+        <!--Top-header-->
+        <div class="bg-emerald-800 text-white px-3 py-5 flex items-center justify-between">
+            <h4 class="font-semibold text-xl">WhatsAPP</h4>
+            <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    class="fill-current mr-4 hover:text-emerald-400 cursor-pointer">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0c.41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z" />
+                </svg>
+                <a href="./settings.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 14 14" class="hover:text-emerald-400 cursor-pointer">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="m5.23 2.25l.43-1.11A1 1 0 0 1 6.59.5h.82a1 1 0 0 1 .93.64l.43 1.11l1.46.84l1.18-.18a1 1 0 0 1 1 .49l.4.7a1 1 0 0 1-.08 1.13l-.73.93v1.68l.75.93a1 1 0 0 1 .08 1.13l-.4.7a1 1 0 0 1-1 .49l-1.18-.18l-1.46.84l-.43 1.11a1 1 0 0 1-.93.64h-.84a1 1 0 0 1-.93-.64l-.43-1.11l-1.46-.84l-1.18.18a1 1 0 0 1-1-.49l-.4-.7a1 1 0 0 1 .08-1.13L2 7.84V6.16l-.75-.93a1 1 0 0 1-.08-1.13l.4-.7a1 1 0 0 1 1-.49l1.18.18ZM5 7a2 2 0 1 0 2-2a2 2 0 0 0-2 2Z" />
+                    </svg></a>
+            </div>
+        </div>
+        <!--Top-next-header-->
+        <ul class="bg-emerald-800 text-white px-3 py-2 flex justify-between items-center space-x-4 ">
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    class="fill-current w-6 hover:text-emerald-400 cursor-pointer">
+                    <path
+                        d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z" />
+                </svg></li>
+
+
+            <li class="flex items-center flex-1 justify-between ">
+                <div class="uppercase font-medium text-sm items-center space-x-1 ">
+                    <a href="./index.html" class="text-gray-300 hover:text-emerald-400 cursor-pointer"><span>Chats</span>
+                        <span
+                            class="hover:bg-emerald-400 cursor-pointer bg-gray-300 text-emerald-800 rounded-full px-1.5 py-1  w-6 h-6 text-xs  items-center justify-center ml-1">10</span></a>
+
+
+                </div>
+                <div class="uppercase font-medium text-sm items-center space-x-2">
+                    <a href="./status.html" class="text-gray-300 mr-6 hover:text-emerald-400 cursor-pointer">STATUS</a>
+
+                </div>
+                <div class="uppercase font-medium text-sm items-center space-x-2 relative">
+                    <span class="mr-3 text-white">Calls</span>
+                    <div class="absolute  right-0.5 w-full top-8 h-1 bg-white "></div>
+
+                </div>
+            </li>
+
+
+        </ul>
+
+        <!--call screen-->
+        <div class="bg-white">
+
+            <!--calls-->
+
+            <div>
+                <div class="flex items-center px-3 py-5 space-x-5 hover:bg-gray-100 cursor-pointer">
+
+                    <div class="bg-emerald-800 w-14 h-14 ml-1 rounded-full flex items-center justify-center"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                            class="text-white fill-current">
+                            <path
+                                d="M11 17H7q-2.075 0-3.538-1.463T2 12q0-2.075 1.463-3.538T7 7h4v2H7q-1.25 0-2.125.875T4 12q0 1.25.875 2.125T7 15h4v2Zm-3-4v-2h8v2H8Zm5 4v-2h4q1.25 0 2.125-.875T20 12q0-1.25-.875-2.125T17 9h-4V7h4q2.075 0 3.538 1.463T22 12q0 2.075-1.463 3.538T17 17h-4Z" />
+                        </svg></div>
+
+
+                    <div class="flex flex-col">
+                        <h4 class="font-medium">Create call link</h4>
+                        <p class="text-gray-500 font-semibold">Share a link for your Whatsapp call</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!--call image-->
+            <div>
+                <h4 class="font-semibold px-3 pb-3 ml-1">Recent</h4>
+
+                <div class="px-3 py-5 flex items-center space-x-5 hover:bg-gray-100 cursor-pointer">
+
+                    <img src="https://ui-avatars.com/api/?name=Raja pandian&background=random&color=fff"
+                        alt="Raja pandian" class="rounded-full w-14 ml-1">
+
+                    <div class="flex flex-col  ">
+
+                        <h4 class="font-medium text-red-600">
+                            Raja pandian
+                        </h4>
+
+                        <div class="flex items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="text-red-600 fill-current mr-1">
+                                <path d="M19 6.41L17.59 5L7 15.59V9H5v10h10v-2H8.41L19 6.41Z" />
+                            </svg>
+                            <p class="font-semibold text-gray-600">March 27 , 08:19 pm</p>
+                        </div>
+
+                    </div>
+                    <div class="flex items-center  flex-1 justify-end pr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24"
+                            class="text-emerald-800 fill-current ">
+                            <path
+                                d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="px-3 py-5 flex items-center space-x-5 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Habib rahuman&background=random&color=fff"
+                        alt="Habib rahuman" class="rounded-full w-14  ml-1">
+
+                    <div class="flex flex-col">
+                        <h4 class="font-medium text-red-600">
+                            Habib rahuman
+                        </h4>
+
+                        <div class="flex items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="text-red-600 fill-current mr-1">
+                                <path d="M19 6.41L17.59 5L7 15.59V9H5v10h10v-2H8.41L19 6.41Z" />
+                            </svg>
+                            <p class="font-semibold text-gray-600">March 26 , 06:26 pm</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-1 justify-end pr-2  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24"
+                            class="fill-current text-emerald-800">
+                            <path
+                                d="M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11l-4 4Z" />
+                        </svg>
+                    </div>
+                </div>
+
+
+                <div class="px-3 py-5 flex items-center space-x-5 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Logesh&background=random&color=fff" alt="Logesh"
+                        class="rounded-full w-14 ml-1">
+
+                    <div class="flex flex-col">
+                        <h4 class="font-medium">
+                            Logesh
+                        </h4>
+
+                        <div class="flex items-center ">
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="text-green-600 fill-current mr-1">
+                                <path d="M5 17.59L15.59 7H9V5h10v10h-2V8.41L6.41 19L5 17.59Z" />
+                            </svg>
+                            <p class="font-semibold text-gray-600">March 23 , 11:13 am</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center  flex-1 justify-end pr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24"
+                            class="text-emerald-800 fill-current ">
+                            <path
+                                d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="px-3 py-5 flex items-center space-x-5 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Ram selvan&background=random&color=fff" alt="Ram selvan"
+                        class="rounded-full w-14 ml-1">
+
+                    <div class="flex flex-col">
+                        <h4 class="font- text-red-600">
+                            Ram selvan
+                        </h4>
+
+                        <div class="flex items-center ">
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="text-red-600 fill-current mr-1">
+                                <path d="M19 6.41L17.59 5L7 15.59V9H5v10h10v-2H8.41L19 6.41Z" />
+                            </svg>
+
+                            <p class="font-semibold text-gray-600">March 21 , 1:04 pm</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center  flex-1 justify-end pr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24"
+                            class="text-emerald-800 fill-current ">
+                            <path
+                                d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="px-3 py-5 flex items-center space-x-5 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=yoga raj&background=random&color=fff" alt="yoga raj"
+                        class="rounded-full w-14 ml-1">
+
+                    <div class="flex flex-col">
+                        <h4 class="font-medium">
+                            yoga raj
+                        </h4>
+
+                        <div class="flex items-center">
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="text-green-600 fill-current mr-1">
+                                <path d="M5 17.59L15.59 7H9V5h10v10h-2V8.41L6.41 19L5 17.59Z" />
+                            </svg>
+                            <p class="font-semibold text-gray-600">March 20 , 12:24 pm</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-1 justify-end pr-2  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24"
+                            class="fill-current text-emerald-800">
+                            <path
+                                d="M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11l-4 4Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
